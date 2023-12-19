@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tictac-toe</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        .first td{
+            height: 200px;
+            width:200px;
+            text-align: center;
+            font-size: 100px;
+        }
+    </style>
+</head>
+<body onload="name()">
+    <div style="padding-top: 75px;padding-left: 400px;">
+    <table class="first">
+        <tr>
+            <td id="0" onclick="fc()"  ></td>
+            <td class="bg-dark text-white" id="1" onclick="sc()" ></td>
+            <td id="2" onclick="tc()" ></td>
+        </tr>
+        <tr>
+            <td class="bg-dark text-white" id="3" onclick="sfc()" ></td>
+           <td id="4" onclick="ssc()"></td>
+           <td class="bg-dark text-white"id="5" onclick="stc()" ></td>
+        </tr>
+        <tr>
+            <td id="6" onclick="tfc()" ></td>
+            <td class="bg-dark text-white" id="7" onclick="tsc()" ></td>
+            <td id="8" onclick="ttc()" ></td>
+        </tr>
+    </table>
+    </div>
+    <div class="row">
+        <div>
+        </div>
+
+    </div>
+    <script src="tik.js"></script>
+    </body> 
+</html>
+
+					
